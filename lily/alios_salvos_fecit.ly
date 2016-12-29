@@ -130,21 +130,5 @@ voz_iv = \relative c' {
 
 voz_iv_texto = \voz_iii_texto
 
-
-
-tenorTexto = \lyricmode {
-  % La letra sigue aquí.
-  Á -- li -- os sál -- vos fé -- cit: se -- í -- psum non pót -- est sál -- vum fá -- ce -- re. Si Rex Í -- sra -- ël
-  est, des -- cén -- dat de crú -- ce et cŕe -- di -- mus é -- i. Con -- fí -- dit in Dé -- o, lí -- be -- ret
-  é -- um nunc si vult. Dí -- xit é -- nim: quí -- a fí -- li -- us Dé -- _ i sum.
-}
-
-bassusTexto = \lyricmode {
-  % La letra sigue aquí.
-  Á -- li -- os sál -- vos fé -- cit: se -- í -- psum non pót -- est sál -- vum fá -- ce -- re. Si Rex Í -- sra -- ël
-  est, des -- cén -- dat de crú -- ce et cŕe -- di -- mus é -- i. Con -- fí -- dit in Dé -- o, lí -- be -- ret
-  é -- um nunc si vult. Dí -- xit é -- nim: quí -- a fí -- li -- us Dé -- _ i sum.
-}
-
 \include "base/instrumentos.ly"
 \SATB

@@ -42,7 +42,7 @@ incipit = #(define-music-function (parser location incipit-musica incipit-texto)
 #})
 
 mFicta = {
-  \once\override Staff.AccidentalSuggestion.stencil = #(lambda (grob) (bracketify-stencil (ly:accidental-interface::print grob) Y 0.1 0.2 0.1))
+%  \once\override Staff.AccidentalSuggestion.stencil = #(lambda (grob) (bracketify-stencil (ly:accidental-interface::print grob) Y 0.1 0.2 0.1))
   \once\set suggestAccidentals = ##t
 }
 mFictaP = { 
@@ -51,7 +51,7 @@ mFictaP = {
 }
 
 mFictaOn = {
-  \override Staff.AccidentalSuggestion.stencil = #(lambda (grob) (bracketify-stencil (ly:accidental-interface::print grob) Y 0.1 0.2 0.1))
+%  \override Staff.AccidentalSuggestion.stencil = #(lambda (grob) (bracketify-stencil (ly:accidental-interface::print grob) Y 0.1 0.2 0.1))
   \set suggestAccidentals = ##t
 }
 mFictaOff = {
