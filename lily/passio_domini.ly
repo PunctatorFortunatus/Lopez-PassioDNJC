@@ -16,6 +16,7 @@ voz_i = \relative c'' {
   \clef "treble"
   \time 4/4
   \key f \major
+  \mark #1
   
   d2. d4	|
   d2 d |
@@ -32,8 +33,8 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Pás -- si -- o Dó -- mi -- ni nó -- _ stri Jé -- su Chrí -- _
-  _ sti se -- cún -- dum Mat -- thǽ -- _ um, se -- cún -- dum Mat -- _ thǽ -- um.
+  Pás -- si -- o Dó -- mi -- ni nó -- _ stri Jé -- su Chrí -- _ _ sti 
+  se -- cún -- dum Mat -- thǽ -- _ um, se -- cún -- dum Mat -- _ thǽ -- um.
 }
 
 voz_ii_n = "Altus"
@@ -67,8 +68,8 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Pás -- si -- o Dó -- mi -- ni nó -- _ _ stri Jé -- su Chrí --
-  sti se -- cún -- dum Mat -- thǽ -- um, se -- cún -- dum Mat -- thǽ -- um.
+  Pás -- si -- o Dó -- mi -- ni nó -- _ _ stri Jé -- su Chrí -- sti 
+  se -- cún -- dum Mat -- thǽ -- um, se -- cún -- dum Mat -- thǽ -- um.
 }
 
 voz_iii_n = "Tenor"
@@ -100,8 +101,8 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  Pás -- si -- o Dó -- mi -- ni nó -- stri Jé -- su
-  Chrí -- sti se -- cún -- dum Mat -- _ thǽ -- _ um, se -- cún -- dum Mat -- tǽ -- _ um.
+  Pás -- si -- o Dó -- mi -- ni nó -- stri Jé -- su Chrí -- sti 
+  se -- cún -- dum Mat -- _ thǽ -- _ um, se -- cún -- dum Mat -- tǽ -- _ um.
 }
 
 voz_iv_n = "Baſsus"
@@ -133,8 +134,8 @@ voz_iv = \relative c' {
 }
 
 voz_iv_texto = \lyricmode {
-  Pás -- si -- o Dó -- mi -- ni nó -- stri Jé -- su Chrí --
-  sti se -- cún -- dum Mat -- thǽ -- _ _ um, se -- cún -- dum Mat -- thǽ -- um.
+  Pás -- si -- o Dó -- mi -- ni nó -- stri Jé -- su Chrí -- sti 
+  se -- cún -- dum Mat -- thǽ -- _ _ um, se -- cún -- dum Mat -- thǽ -- um.
 }
 
 \include "base/instrumentos.ly"
