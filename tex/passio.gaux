@@ -1,0 +1,22 @@
+return {
+ ["line_heights"]={
+ },
+ ["last_syllables"]={
+  ["e17d2bc78543c5b531ff7465e024d2a65c2c138b.1"]={
+   [70]=70,
+   [168]=168,
+   [104]=104,
+   [240]=240,
+   [203]=203,
+   [34]=34,
+   [135]=135,
+  },
+ },
+ ["saved_lengths"]={
+ },
+ ["saved_newline_before_euouae"]={
+ },
+ ["state_hashes"]={
+  ["e17d2bc78543c5b531ff7465e024d2a65c2c138b.1"]="f61f6a53b321465561f6ec4b676aea42",
+ },
+}
