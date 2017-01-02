@@ -1,5 +1,22 @@
 \include "base/inicio.ly"
 \layout { indent = 4\cm }
+\header {
+  composer = \markup{
+    \override #'(baseline-skip . 2)
+    \teeny
+    \center-column{
+      \line {Francisco López Capillas}
+      \line {(1614 – 1674)}
+    }
+  }
+  poet = \markup{
+    \override #'(baseline-skip . 2)
+    \teeny\left-column{ 
+      \line {\italic {Códice López Capillas.} Archivo Musical de la Catedral de México.}
+      \line {Transcripción de Juan Manuel Lara Cárdenas, 1992.}
+    }
+  }
+}
 
 voz_i_n = "Superius"
 voz_i = \relative c'' {

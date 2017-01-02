@@ -12,7 +12,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Bá -- rab -- bam!
+  Ba -- ráb -- bam!
 }
 
 voz_ii = \relative c'' {

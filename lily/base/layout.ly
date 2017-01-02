@@ -1,5 +1,5 @@
 \layout {
-  indent = 1
+  indent = 0\pt
   \override LyricText.font-size = #-1
   \override Staff.InstrumentName.self-alignment-X = #RIGHT
   \set Staff.autoBeaming = ##f
@@ -38,5 +38,8 @@
     
     % Acomodo de semitonía y fermatas:
     \override Script.outside-staff-priority = #-1
+    
+    % Notas centradas
+    \override PaperColumn.after-line-breaking = #center-column
   }
 }

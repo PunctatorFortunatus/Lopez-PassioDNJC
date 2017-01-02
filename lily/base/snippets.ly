@@ -58,3 +58,76 @@ mFictaOff = {
   \revert Staff.AccidentalSuggestion.stencil
   \set suggestAccidentals = ##f
 }
+
+#(define center-column
+   (lambda (col)
+     (let* ((sys (ly:grob-system col))
+            (all-cols
+             (ly:grob-array->list
+              (ly:grob-object sys 'columns)))
+            (measure-no
+             (car (ly:grob-property col 'rhythmic-location)))
+            ; we need to find out if there is another
+            ; PaperColumn in the measure.  If there is,
+            ; we make no adjustments.
+            (in-company?
+             ; is there a column...
+             (any
+              (lambda (c)
+                (and
+                 ; which is NOT our column...
+                 (not (eq? col c))
+                 ; which is a PaperColumn...
+                 (not (eq? #t (ly:grob-property c 'non-musical)))
+                 ; which is in the same measure
+                 (eq?
+                  (car (ly:grob-property c 'rhythmic-location))
+                  measure-no)))
+              all-cols))
+            (alone? (not in-company?))) ; 
+       (if alone?
+           (let* ((left-col (ly:grob-object col 'left-neighbor))
+                  (right-col (ly:grob-object col 'right-neighbor))
+                  (elts-list
+                   (ly:grob-array->list (ly:grob-object col 'elements)))
+                  (note-cols
+                   (filter
+                    (lambda (elt)
+                      (grob::has-interface elt 'note-column-interface))
+                    elts-list))
+                  (all-rests
+                   (map (lambda (c)
+                          (ly:grob-object c 'rest))
+                     note-cols))
+                  (all-rests (filter ly:grob? all-rests))
+                  (all-notes
+                   (map
+                    (lambda (c)
+                      (ly:grob-object c 'note-heads))
+                    note-cols))
+                  (all 
+                   (map (lambda (ga) 
+                          (if (ly:grob-array? ga)
+                              (ly:grob-array->list ga)
+                              '()))
+                     all-notes))
+                  (all (flatten-list all))
+                  (all (append all all-rests))
+                  (same-dur?
+                   (every (lambda (o) 
+                            (equal?
+                             (ly:grob-property o 'duration-log)
+                             (ly:grob-property (car all)
+                               'duration-log)))
+                     all)))
+             (if same-dur?
+                 (let* ((col-center (interval-center
+                                     (ly:grob-extent col sys X)))
+                        (left-right-X
+                         (cdr (ly:grob-extent left-col sys X)))
+                        (right-left-X
+                         (car (ly:grob-extent right-col sys X)))
+                        (middle-X
+                         (- (average left-right-X right-left-X)
+                           col-center)))
+                   (ly:grob-translate-axis! col middle-X X))))))))
