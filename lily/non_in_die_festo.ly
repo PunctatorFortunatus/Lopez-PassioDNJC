@@ -18,7 +18,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Non in dí -- e fé -- sto, ne fór -- te tu -- múl -- tus fí -- e -- ret in pó -- pu -- lo.
+  Non in dí -- e fe -- sto, ne for -- te tu -- múl -- tus fí -- e -- ret in pó -- pu -- lo.
 }
 
 voz_ii = \relative c'' {
@@ -31,9 +31,7 @@ voz_ii = \relative c'' {
   e4. e8 fis2\fermata
 }
 
-voz_ii_texto = \lyricmode {
-  Non in dí -- e fé -- sto, ne fór -- te tu -- múl -- tus fí -- e -- ret in pó -- pu -- lo.
-}
+voz_ii_texto = \voz_i_texto
 
 voz_iii = \relative c' {
   \global
@@ -46,9 +44,7 @@ voz_iii = \relative c' {
   d \mFicta cis d2\fermata
 }
 
-voz_iii_texto = \lyricmode {
-  Non in dí -- e fé -- sto, ne fór -- te tu -- múl -- tus fí -- e -- ret in pó -- pu -- lo.
-}
+voz_iii_texto = \voz_i_texto
 
 voz_iv = \relative c' {
   \global
@@ -61,9 +57,7 @@ voz_iv = \relative c' {
   a'4. a8 d,2\fermata
 }
 
-voz_iv_texto = \lyricmode {
- Non in dí -- e fé -- sto, ne fór -- te tu -- múl -- tus fí -- e -- ret in pó -- pu -- lo.
-}
+voz_iv_texto = \voz_i_texto
 
 \include "base/instrumentos.ly"
 \SATB

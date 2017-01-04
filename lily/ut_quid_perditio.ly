@@ -22,8 +22,8 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Ut quid per -- dí -- ti -- o hæc? Pó -- tu -- it é -- nim un -- guén -- tum í -- stud ve --
-  nun -- dá -- ri múl -- to et dá -- ri pau -- pé -- ri -- bus.
+  Ut quid per -- dí -- ti -- o hæc? Pó -- tu -- it e -- nim un -- guén -- tum i -- stud ve --
+  nun -- dá -- ri mul -- to et da -- ri pau -- pé -- ri -- bus.
 }
 
 voz_ii = \relative c'' {
@@ -41,8 +41,8 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Ut quid per -- dí -- ti -- o hæc? Pó -- tu -- it é -- nim un -- guén -- tum í -- stud ve --
-  nun -- dá -- ri múl -- _ to et dá -- ri pau -- pé -- ri -- bus.
+  Ut quid per -- dí -- ti -- o hæc? Pó -- tu -- it e -- nim un -- guén -- tum i -- stud ve --
+  nun -- dá -- ri mul -- _ to et da -- ri pau -- pé -- ri -- bus.
 }
 
 voz_iii = \relative c' {

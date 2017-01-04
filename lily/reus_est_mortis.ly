@@ -6,6 +6,8 @@ global = {
   \mark #7
 }
 
+tiefix = { \shape #'((0 . 0) (0 . 0) (1 . 0) (1 . 0)) Tie }
+
 voz_i = \relative c'' {
   \global
   d2 d4 d |
@@ -14,13 +16,13 @@ voz_i = \relative c'' {
   f1 |
   f2 r4 d~ |
   d8[ c] bes4 \[a2 |
-  bes\] a~ |
+  bes\] \tiefix a~ |
   a1\fermata |
   \bar "||"
 }
 
 voz_i_texto = \lyricmode {
-  Ré -- us est mór -- _ tis! Ré -- us est mór -- tis! Ré -- us est mór -- tis! __
+  Re -- us est mor -- _ tis! Re -- us est mor -- tis! Re -- us est mor -- tis! __
 }
 
 voz_ii = \relative c'' {
@@ -36,7 +38,7 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Ré -- us est __ mór -- tis! Ré -- us est mór -- _ _ tis! Ré -- us est mór -- _ _ tis!
+  Re -- us est __ mor -- tis! Re -- us est mor -- _ _ tis! Re -- us est mor -- _ _ tis!
 }
 
 voz_iii = \relative c' {
@@ -53,7 +55,7 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  Ré -- us est __ mór -- tis! Ré -- us est __ _ mór -- tis! __
+  Re -- us est __ mor -- tis! Re -- us est __ _ mor -- tis! __
 }
 
 voz_iv = \relative c' {
@@ -70,7 +72,7 @@ voz_iv = \relative c' {
 }
 
 voz_iv_texto = \lyricmode {
- Ré -- us est mór -- _ tis! Ré -- us est mór -- tis! Ré -- us est mór -- _ tis! __
+ Re -- us est mor -- _ tis! Re -- us est mor -- tis! Re -- us est mor -- _ tis! __
 }
 
 \include "base/instrumentos.ly"

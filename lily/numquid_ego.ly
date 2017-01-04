@@ -15,7 +15,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Núm -- quid é -- go sum, Dó -- mi -- ne?
+  Num -- quid e -- go sum, Dó -- mi -- ne?
 }
 
 voz_ii = \relative c'' {
@@ -26,7 +26,7 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Núm -- quid é -- go sum, __ _ Dó -- mi -- ne?
+  Num -- quid e -- go sum, __ _ Dó -- mi -- ne?
 }
 
 voz_iii = \relative c' {

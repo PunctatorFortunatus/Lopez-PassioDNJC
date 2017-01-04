@@ -29,6 +29,11 @@
 \newcommandx{\espacio}[1][1=1cm]{\par\vspace{#1}\null}
 
 \begin{document}
+	\thispagestyle{empty}
+	\vspace*{\fill}
+	\hspace*{\fill}\includegraphics[width=12cm]{portada.png}\hspace*{\fill}\par
+	\vspace*{\stretch{2}}
+	\pagebreak
 	\begin{centering}
 		{\huge Páßio Dómini Nostri Iesu Christi}\par
 		{\large Secúndum Matthǽum}\par
@@ -74,15 +79,16 @@
 	\gregorioscore{../gabc/et_continuo_currens}\espacio
 	\includely{../lily/sine_videamus.ly}\espacio
 	\gregorioscore{../gabc/iesus_autem}\espacio[0.3cm]
-	\hfill\adforn{10}\hspace{0.6cm}\adforn{10}\hspace{0.6cm}\adforn{10}\hfill\null\espacio[0.3cm]
+	\textit{Hic geunfléctitur et pausátur aliquántulum}\espacio[0.3cm]
 	\gregorioscore{../gabc/et_ecce_velum}\espacio
 	\includely{../lily/vere_filius_dei.ly}\espacio
 	\gregorioscore{../gabc/erant_autem_ibi}\espacio[\fill]
 	\includely{../lily/contra_sepulcrum.ly}\espacio[\fill]
 	\begin{centering}
+		\small
 		Víctor Cisneros Castro punctávit me.\\
 		\adforn{60}\hspace{0.3cm}Ad usum privatum Chori MELOS CLORIÆ.\hspace{0.3cm}\adforn{32}\\
 		I Ianuarii A.D. MMXVII.\\
 	\end{centering}
-	\vspace{\stretch{1}}\null
+	% \vspace{\stretch{1}}\null
 \end{document}

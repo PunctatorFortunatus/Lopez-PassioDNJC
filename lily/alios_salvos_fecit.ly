@@ -6,6 +6,10 @@ global = {
   \mark #18
 }
 
+tiefix = { 
+  \shape #'((0 . 0) (0 . 0) (2.3 . 0) (2.3 . 0)) Tie 
+}
+
 voz_i = \relative c'' {
   \global
   d2 d4 d |
@@ -28,15 +32,15 @@ voz_i = \relative c'' {
   e4. e8 d4 cis | \mFictaOff
   r \mFictaP c!2 c4 |
   c2 bes4 bes |
-  a a a2~ |
+  a a \tiefix a2~ |
   a1\fermata
   \bar "||"
 }
 
 voz_i_texto = \lyricmode {
-  Á -- li -- os sál -- vos fé -- cit! Se -- í -- psum non pót -- est sál -- vum fá -- ce -- re! Si rex Í -- sra -- ël
-  est, des -- cén -- dat de crú -- ce et cré -- di -- mus é -- i! Con -- fí -- dit in Dé -- o, lí -- be -- ret __
-  nunc si vult é -- um. Dí -- xit é -- nim: “quí -- a fí -- li -- us Dé -- i sum”. __
+  Á -- li -- os sal -- vos fe -- cit! Se -- í -- psum non pot -- est sal -- vum fá -- ce -- re! Si rex Í -- sra -- ël
+  est, des -- cén -- dat de cru -- ce et cré -- di -- mus e -- i! Con -- fí -- dit in De -- o, lí -- be -- ret __
+  nunc si vult e -- um. Di -- xit e -- nim: “qui -- a fí -- li -- us De -- i sum”. __
 }
 
 voz_ii = \relative c'' {
@@ -65,9 +69,9 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Á -- li -- os sál -- vos fé -- cit! Se -- í -- psum non pót -- est sál -- vum fá -- ce -- re! Si rex Í -- sra -- ël
-  est, des -- cén -- dat de crú -- ce et cré -- di -- mus é -- i! Con -- fí -- dit in Dé -- o, lí -- be -- ret __
-  nunc si vult é -- um. Dí -- xit é -- nim: “quí -- a fí -- li -- us Dé -- _ i sum”.
+  Á -- li -- os sal -- vos fe -- cit! Se -- í -- psum non pot -- est sal -- vum fá -- ce -- re! Si rex Í -- sra -- ël
+  est, des -- cén -- dat de cru -- ce et cré -- di -- mus e -- i! Con -- fí -- dit in De -- o, lí -- be -- ret __
+  nunc si vult e -- um. Di -- xit e -- nim: “qui -- a fí -- li -- us De -- _ i sum”.
 }
 
 voz_iii = \relative c' {
@@ -97,9 +101,9 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  Á -- li -- os sál -- vos fé -- cit! Se -- í -- psum non pót -- est sál -- vum fá -- ce -- re! Si rex Í -- sra -- ël
-  est, des -- cén -- dat de crú -- ce et cré -- di -- mus é -- i! Con -- fí -- dit in Dé -- o, lí -- be -- ret
-  nunc si vult é -- um. Dí -- xit é -- nim: “quí -- a fí -- li -- us Dé -- _ i sum”.
+  Á -- li -- os sal -- vos fe -- cit! Se -- í -- psum non pot -- est sal -- vum fá -- ce -- re! Si rex Í -- sra -- ël
+  est, des -- cén -- dat de cru -- ce et cré -- di -- mus e -- i! Con -- fí -- dit in De -- o, lí -- be -- ret
+  nunc si vult e -- um. Di -- xit e -- nim: “qui -- a fí -- li -- us De -- _ i sum”.
 }
 
 voz_iv = \relative c' {
