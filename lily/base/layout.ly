@@ -1,6 +1,6 @@
 \layout {
   indent = 0\pt
-  \override LyricText.font-size = #-1
+%  \override LyricText.font-size = #-1
   \override Staff.InstrumentName.self-alignment-X = #RIGHT
   \set Staff.autoBeaming = ##f
   \set Score.markFormatter = #format-mark-numbers
@@ -42,4 +42,12 @@
     % Notas centradas
     \override PaperColumn.after-line-breaking = #center-column
   }
+}
+
+\paper {
+  #(set-paper-size "letter")
+  left-margin = 2.5\cm
+  right-margin = 1.5\cm
+  top-margin = 2.5\cm
+  bottom-margin = 2.5\cm
 }

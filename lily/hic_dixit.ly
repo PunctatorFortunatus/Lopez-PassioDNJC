@@ -21,8 +21,8 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Hic dí -- xit: Pós -- sum de -- strú -- e -- re tém -- plum Dé -- i
-  et in trí -- du -- um re -- æ -- di -- fi -- cá -- re íl -- lud.
+  Hic di -- xit: Pos -- sum de -- strú -- e -- re tem -- plum De -- i
+  et in trí -- du -- um re -- æ -- di -- fi -- cá -- re il -- lud.
 }
 
 voz_ii = \relative c'' {
@@ -39,8 +39,8 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Hic dí -- xit: Pós -- sum de -- strú -- e -- re tém -- plum Dé -- i
-  et in trí -- du -- um re -- æ -- di -- fi -- cá -- _ re íl -- lud.
+  Hic di -- xit: Pos -- sum de -- strú -- e -- re tem -- plum De -- i
+  et in trí -- du -- um re -- æ -- di -- fi -- cá -- _ re il -- lud.
 }
 
 voz_iii = \relative c' {
@@ -58,8 +58,8 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  Hi dí -- xit: Pós -- sum de -- strú -- e -- re tém -- plum __ Dé -- i
-  et in trí -- du -- um re -- æ -- di -- fi -- cá -- re __ íl -- _ _ lud.
+  Hi di -- xit: Pos -- sum de -- strú -- e -- re tem -- plum __ De -- i
+  et in trí -- du -- um re -- æ -- di -- fi -- cá -- re __ il -- _ _ lud.
 }
 
 voz_iv = \relative c {

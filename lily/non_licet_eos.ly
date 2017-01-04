@@ -18,8 +18,8 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Non lí -- cet é -- os mít -- te -- re in
-  cór -- bo -- nam quí -- a pré -- ti -- um sán -- gui -- nis est.
+  Non li -- cet e -- os mít -- te -- re in
+  cór -- bo -- nam qui -- a pré -- ti -- um sán -- gui -- nis est.
 }
 
 voz_ii = \relative c' {

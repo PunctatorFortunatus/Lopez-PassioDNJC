@@ -18,7 +18,7 @@ voz_i = \relative c'' {
   \once \hide Accidental
   cis d e \mFictaP c! |
   c2 c4 c |
-  c2 c4 c |
+  c2 c4 c | \break
   a a a2	 |
   r4 d d8[ c bes a] |
   g2 a |
@@ -28,10 +28,10 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Vah, qui dé -- stru -- is tém -- plum Dé -- _ i, 
-  et __ in trí -- du -- o re -- æ -- dí -- fi -- cas íl -- lud: 
-  Sál -- va te met -- í -- psum! 
-  Si fí -- li -- us Dé -- i es, de -- scén -- _ de de crú -- _ _ ce!
+  Vah, qui dé -- stru -- is tem -- plum De -- _ i, 
+  et __ in trí -- du -- o re -- æ -- dí -- fi -- cas il -- lud: 
+  Sal -- va te -- met -- í -- psum! 
+  Si fí -- li -- us De -- i es, de -- scén -- _ de de cru -- _ _ ce!
 }
 
 voz_ii = \relative c'' {
@@ -54,11 +54,11 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Vah, qui dé -- stru -- is tém -- plum Dé -- i, 
-  et __ in trí -- du -- o re -- æ -- dí -- fi -- cas íl -- lud: 
-  Sál -- va te met -- í -- psum! 
-  Si fí -- li -- us Dé -- i es, 
-  de -- scén -- de, de -- scén -- de de __ crú -- ce!
+  Vah, qui dé -- stru -- is tem -- plum De -- i, 
+  et __ in trí -- du -- o re -- æ -- dí -- fi -- cas il -- lud: 
+  Sal -- va te -- met -- í -- psum! 
+  Si fí -- li -- us De -- i es, 
+  de -- scén -- de, de -- scén -- de de __ cru -- ce!
 }
 
 voz_iii = \relative c' {
@@ -82,11 +82,11 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  Vah, qui dé -- stru -- is tém -- plum Dé -- i, 
-  et __ in trí -- du -- o re -- æ -- dí -- fi -- cas íl -- lud: 
-  Sál -- va te met -- í -- psum! 
-  Si fí -- li -- us Dé -- i es, 
-  de -- scén -- de de crú -- ce, de -- scén -- de de crú -- _ ce!
+  Vah, qui dé -- stru -- is tem -- plum De -- i, 
+  et __ in trí -- du -- o re -- æ -- dí -- fi -- cas il -- lud: 
+  Sal -- va te -- met -- í -- psum! 
+  Si fí -- li -- us De -- i es, 
+  de -- scén -- de de cru -- ce, de -- scén -- de de cru -- _ ce!
 }
 
 voz_iv = \relative c' {
@@ -110,11 +110,11 @@ voz_iv = \relative c' {
 }
 
 voz_iv_texto = \lyricmode {
-  Vah, qui dé -- stru -- is tém -- plum Dé -- i, 
-  et __ in trí -- du -- o re -- æ -- dí -- fi -- cas íl -- lud: 
-  Sál -- va te met -- í -- psum!
-  Si fí -- li -- us Dé -- i es, 
-  de -- scén -- _ de, de -- scén -- _ de de crú -- ce!
+  Vah, qui dé -- stru -- is tém -- plum De -- i, 
+  et __ in trí -- du -- o re -- æ -- dí -- fi -- cas il -- lud: 
+  Sal -- va te -- met -- í -- psum!
+  Si fí -- li -- us De -- i es, 
+  de -- scén -- _ de, de -- scén -- _ de de cru -- ce!
 }
 
 \include "base/instrumentos.ly"

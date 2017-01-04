@@ -15,7 +15,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  E -- lí -- am vó -- cat í -- ste.
+  E -- lí -- am vo -- cat i -- ste.
 }
 
 voz_ii = \relative c'' {

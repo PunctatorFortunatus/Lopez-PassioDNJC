@@ -50,7 +50,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Pás -- si -- o Dó -- mi -- ni nó -- _ stri Jé -- su Chrí -- _ _ sti 
+  Pás -- si -- o Dó -- mi -- ni no -- _ stri Ie -- su Chri -- _ _ sti 
   se -- cún -- dum Mat -- thǽ -- _ um, se -- cún -- dum Mat -- _ thǽ -- um.
 }
 
@@ -85,7 +85,7 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Pás -- si -- o Dó -- mi -- ni nó -- _ _ stri Jé -- su Chrí -- sti 
+  Pás -- si -- o Dó -- mi -- ni no -- _ _ stri Ie -- su Chri -- sti 
   se -- cún -- dum Mat -- thǽ -- um, se -- cún -- dum Mat -- thǽ -- um.
 }
 
@@ -118,7 +118,7 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  Pás -- si -- o Dó -- mi -- ni nó -- stri Jé -- su Chrí -- sti 
+  Pás -- si -- o Dó -- mi -- ni no -- stri Ie -- su Chri -- sti 
   se -- cún -- dum Mat -- _ thǽ -- _ um, se -- cún -- dum Mat -- tǽ -- _ um.
 }
 
@@ -151,7 +151,7 @@ voz_iv = \relative c' {
 }
 
 voz_iv_texto = \lyricmode {
-  Pás -- si -- o Dó -- mi -- ni nó -- stri Jé -- su Chrí -- sti 
+  Pás -- si -- o Dó -- mi -- ni no -- stri Ie -- su Chri -- sti 
   se -- cún -- dum Mat -- thǽ -- _ _ um, se -- cún -- dum Mat -- thǽ -- um.
 }
 

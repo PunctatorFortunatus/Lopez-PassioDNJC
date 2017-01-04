@@ -19,7 +19,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Sí -- ne, vi -- de -- á -- mus an vé -- ni -- at E -- lí -- as lí -- be -- rans é -- um.
+  Si -- ne, vi -- de -- á -- mus an vé -- ni -- at E -- lí -- as lí -- be -- rans e -- um.
 }
 
 voz_ii = \relative c'' {
@@ -34,7 +34,7 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Sí -- ne, vi -- de -- á -- mus an vé -- ni -- at E -- lí -- as lí -- be -- rans __ _ é -- um.
+  Si -- ne, vi -- de -- á -- mus an vé -- ni -- at E -- lí -- as lí -- be -- rans __ _ e -- um.
 }
 
 voz_iii = \relative c' {
@@ -50,7 +50,7 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  Sí -- ne, vi -- de -- á -- mus an vé -- ni -- at E -- lí -- as lí -- be -- rans é -- _ _ um.
+  Si -- ne, vi -- de -- á -- mus an vé -- ni -- at E -- lí -- as lí -- be -- rans e -- _ _ um.
 }
 
 voz_iv = \relative c' {

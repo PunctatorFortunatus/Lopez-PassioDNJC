@@ -19,7 +19,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Vé -- re fí -- li -- us Dé -- i é -- rat í -- ste, é -- rat í -- ste!
+  Ve -- re fí -- li -- us De -- i e -- rat i -- ste, e -- rat i -- ste!
 }
 
 voz_ii = \relative c'' {
@@ -34,7 +34,7 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Vé -- re fí -- li -- us Dé -- _ _ i é -- rat í -- ste, é -- rat í -- ste!
+  Ve -- re fí -- li -- us De -- _ _ i e -- rat i -- ste, e -- rat i -- ste!
 }
 
 voz_iii = \relative c' {
@@ -50,7 +50,7 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  Vé -- re fí -- _ li -- us Dé -- _ _ i é -- rat í -- ste, é -- _ rat __ ís -- ste!
+  Ve -- re fí -- _ li -- us De -- _ _ i e -- rat i -- ste, e -- _ rat __ is -- ste!
 }
 
 voz_iv = \relative c' {

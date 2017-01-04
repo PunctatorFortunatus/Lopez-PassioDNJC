@@ -17,7 +17,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  U -- bi vis pa -- ré -- mus tí -- bi co -- mé -- de -- re Pá -- scha?
+  U -- bi vis pa -- ré -- mus ti -- bi co -- mé -- de -- re Pa -- scha?
 }
 
 voz_ii = \relative c'' {
@@ -42,7 +42,7 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  U -- bi vis pa -- ré -- mus tí -- bi co -- mé -- de -- re Pá -- _ _ scha?
+  U -- bi vis pa -- ré -- mus ti -- bi co -- mé -- de -- re Pa -- _ _ scha?
 }
 
 voz_iv = \relative c' {

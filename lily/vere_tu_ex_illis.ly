@@ -18,7 +18,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Vé -- re tu ex íl -- lis es, nam et lo -- qué -- la tú -- a ma -- ni -- fé -- stum te fá -- cit.
+  Ve -- re tu ex il -- lis es, nam et lo -- qué -- la tu -- a ma -- ni -- fé -- stum te fa -- cit.
 }
 
 voz_ii = \relative c'' {

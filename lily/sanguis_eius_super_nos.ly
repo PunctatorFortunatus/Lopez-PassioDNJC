@@ -6,19 +6,21 @@ global = {
   \mark #15
 }
 
+tiefix = { \shape #'((0 . 0) (0 . 0) (1.6 . 0) (1.6 . 0)) Tie }
+
 voz_i = \relative c'' {
   \global
   d4. e8 f4 d |
   d f f2 |
   r4 f f f |
   d2 d4 d |
-  d2 d2~ |
+  d2 \tiefix d2~ |
   d1\fermata |
   \bar "||"
 }
 
 voz_i_texto = \lyricmode {
-  Sán -- guis é -- ius sú -- per nos et sú -- per fí -- li -- os nó -- stros. __
+  San -- guis e -- ius su -- per nos et su -- per fí -- li -- os no -- stros. __
 }
 
 voz_ii = \relative c'' {
@@ -32,7 +34,7 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Sán -- guis é -- ius sú -- per nos et sú -- per fí -- li -- os nó -- _ _ stros.
+  San -- guis e -- ius su -- per nos et su -- per fí -- li -- os no -- _ _ stros.
 }
 
 voz_iii = \relative c' {
@@ -47,7 +49,7 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  Sán -- guis é -- ius sú -- per nos et sú -- per fí -- li -- os nó -- _ stros. __
+  San -- guis e -- ius su -- per nos et su -- per fí -- li -- os no -- _ stros. __
 }
 
 voz_iv = \relative c {
@@ -62,7 +64,7 @@ voz_iv = \relative c {
 }
 
 voz_iv_texto = \lyricmode {
- Sán -- guis é -- ius sú -- per nos et sú -- per fí -- li -- os nó -- stros. __
+ San -- guis e -- ius su -- per nos et su -- per fí -- li -- os no -- stros. __
 }
 
 \include "base/instrumentos.ly"

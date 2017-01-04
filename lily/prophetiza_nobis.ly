@@ -18,7 +18,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Pro -- phe -- tí -- za, pro -- phe -- tí -- za nó -- bis, Chrí -- ste: quis est qui te per -- cús -- sit?
+  Pro -- phe -- tí -- za, pro -- phe -- tí -- za no -- bis, Chri -- ste: quis est qui te per -- cús -- sit?
 }
 
 voz_ii = \relative c'' {

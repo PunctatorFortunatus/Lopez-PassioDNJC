@@ -1,4 +1,5 @@
 \include "base/inicio.ly"
+\layout { ragged-last = ##t }
 
 global = {
   \key f \major
@@ -21,7 +22,7 @@ voz_i = \relative c'' {
 }
 
 voz_i_texto = \lyricmode {
-  Á -- ve, á -- ve, Rex Iu -- dæ -- ó -- rum! Á --
+  A -- ve, a -- ve, Rex Iu -- dæ -- ó -- rum! A --
   ve, Rex __ Iu -- _ dæ -- ó -- _ rum!
 }
 
@@ -39,7 +40,7 @@ voz_ii = \relative c'' {
 }
 
 voz_ii_texto = \lyricmode {
-  Á -- ve, á -- _ ve, Rex Iu -- dæ -- ó -- rum! Á --
+  A -- ve, a -- _ ve, Rex Iu -- dæ -- ó -- rum! A --
   ve, Rex Iu -- dæ -- ó -- rum, Iu -- dæ -- ó -- rum!
 }
 
@@ -58,8 +59,8 @@ voz_iii = \relative c' {
 }
 
 voz_iii_texto = \lyricmode {
-  Á -- ve, á -- _ ve, Rex Iu -- dæ -- ó -- rum! Á --
-  ve, á -- _ ve, Rex Iu -- dæ -- ó -- rum!
+  A -- ve, a -- _ ve, Rex Iu -- dæ -- ó -- rum! A --
+  ve, a -- _ ve, Rex Iu -- dæ -- ó -- rum!
 }
 
 
@@ -78,7 +79,7 @@ voz_iv = \relative c' {
 }
 
 voz_iv_texto = \lyricmode {
- Á -- ve, Rex, Rex Iu -- dæ -- ó -- rum! Á --
+ A -- ve, Rex, Rex Iu -- dæ -- ó -- rum! A --
  ve, Rex __ Iu -- dæ -- ó -- rum!
 }
 
